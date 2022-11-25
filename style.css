@@ -1,0 +1,25 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th{
+    /*border: 1px solid gray;*/
+    
+    min-width: 80px;
+}
+
+tr:nth-child(odd){
+    background-color: gray;
+}
+th{
+    background-color: rgb(117, 60, 170);
+    color: white;
+}
+.osszevont{
+    background-color: rgb(60, 60, 255);
+}
+@media screen and(max-width: 500px){
+    article{
+        overflow-x: scroll;
+    }
+}

@@ -1,0 +1,23 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+caption{
+    font-size: 50px;
+}
+td, th{
+    border: 1px solid lightgray;
+}
+td{
+    text-align: center;
+}
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+tbody tr:nth-child(odd){
+    background-color: beige;
+}
+thead tr{
+    background-color: rgb(150, 134, 255);
+
+}
